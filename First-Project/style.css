@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
 }
@@ -96,4 +91,8 @@ a:visited {
 a:hover {
   font-weight: bold;
   text-decoration: underline dotted orangered;
+}
+
+nav {
+  font-size: 20px;
 }
