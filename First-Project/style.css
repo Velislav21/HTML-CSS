@@ -1,8 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* Very easy to override, basically everything will override it */
+}
+
 body {
   font-family: sans-serif;
   color: #444;
 }
 
+.main-header {
+  background-color: #d0d0d0;
+  padding: 20px 40px; 
+  /* top-bottom,   left-right */
+  margin-bottom: 60px;
+} 
+
+.post-header {
+  margin-bottom: 40px;
+}
 h1,
 h2,
 h3 {
@@ -17,6 +33,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -31,14 +48,21 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+ul, ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 footer p {
   font-size: 16px;
+  margin-top: 20px;
 }
 
 #author {
@@ -60,6 +84,7 @@ footer p {
 aside {
   border: 5px solid #1098ad;
   border-radius: 10px;
+  padding: 50px 0;
 }
 
 body {
@@ -95,4 +120,7 @@ a:hover {
 
 nav {
   font-size: 20px;
+}
+article {
+  margin-bottom: 60px;
 }
