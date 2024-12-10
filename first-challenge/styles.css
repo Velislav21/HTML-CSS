@@ -35,7 +35,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
 }
 
 .sale {
@@ -50,18 +49,19 @@ body {
   position: absolute;
   top: -17px;
   left: -38px;
-  
-/*   width: 40px;
+
+  /*   width: 40px;
   text-align: center; */
 }
 
-.more-info:link, .more-info:visited {
+.more-info:link,
+.more-info:visited {
   color: black;
   margin-bottom: 30px;
-  display: inline-block;
 }
 
-.more-info:hover, .more-info:active {
+.more-info:hover,
+.more-info:active {
   text-decoration: none;
 }
 
@@ -69,8 +69,7 @@ body {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
+  margin-top: 25px;
 }
 
 .color-blue {
@@ -124,16 +123,29 @@ body {
   background-color: #fff;
 }
 
-.first-container {
-  width: 300px;
-  position: absolute;
-  top: 60px;
-  right: 400px;
+.container {
+  display: flex;
+  gap: 30px;
 }
-.second-container {
-  position: absolute;
-  width: 300px;
-  float: right;
-  top: 60px;
-  right: 0px;
+
+.product-info {
+  flex: 1;
+}
+.product-details {
+  flex: 1;
+}
+.product-description {
+}
+.product-img {
+
+}
+.product-colors {
+ display: flex; 
+ gap: 10px
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
