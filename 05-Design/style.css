@@ -16,6 +16,7 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
+  background-color: rgb(213, 213, 197);
   font-family: 'Inter'
   /* i need internet for inter */
   /* font-family: sans-serif; */
@@ -147,6 +148,6 @@ h3 {
 }
 
 footer {
-  font-size: 16px;
+  font-size: 16 px;
   margin-bottom: 48px;
 }
