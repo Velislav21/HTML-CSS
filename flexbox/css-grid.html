@@ -8,9 +8,13 @@
     <style>
       .el--1 {
         background-color: blueviolet;
+        grid-column: 3 /4;
+        grid-row: 2 /3;
       }
       .el--2 {
         background-color: orangered;
+        grid-column: 2 / 3;
+        grid-row: 2 /3;
       }
       .el--3 {
         background-color: green;
@@ -18,12 +22,19 @@
       }
       .el--4 {
         background-color: goldenrod;
+        grid-column: 4/5;
+        grid-row: 2/3;
+
       }
       .el--5 {
         background-color: palevioletred;
+        grid-column: 1/2;
+        grid-row: 2/3;
       }
       .el--6 {
         background-color: steelblue;
+        grid-column: 2/3;
+        grid-row: 1/2;
       }
       .el--7 {
         background-color: yellow;
@@ -40,6 +51,10 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
       }
 
       .container--2 {
@@ -52,6 +67,7 @@
         width: 1000px;
         height: 600px;
 
+        display: none;
         /* CSS GRID */
       }
     </style>

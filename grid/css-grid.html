@@ -49,7 +49,8 @@
         margin: 40px;
 
         /* CSS GRID */
-        display: grid;
+        /* display: grid; */
+        display:gr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
 
@@ -59,16 +60,29 @@
 
       .container--2 {
         /* STARTER */
-        display: none;
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
-
-        width: 1000px;
+        margin: 40px;
+        
+        width: 700px;
         height: 600px;
-
+        gap: 50px;
         /* CSS GRID */
+        display: none;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        justify-content: center;
+        /* justify-content: space-between; */
+        align-content: center; 
+        align-items: center;
+        justify-items: center;
+      }
+
+      .el--3 {
+        /* align-self: end;
+        justify-self: end; */
       }
     </style>
   </head>
