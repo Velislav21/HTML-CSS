@@ -16,8 +16,10 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
+  color: #343a40;
   background-color: rgb(213, 213, 197);
-  font-family: 'Inter'
+  font-family: "Inter";
+  border-bottom: 8px solid #087f5b
   /* i need internet for inter */
   /* font-family: sans-serif; */
 }
@@ -43,6 +45,29 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
 }
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn:hover, .btn:active {
+  background-color: #099268;
+}
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+
 
 /* ------------------------ */
 /* COMPONENT STYLES */
@@ -79,6 +104,10 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {
@@ -93,6 +122,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -139,6 +171,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
