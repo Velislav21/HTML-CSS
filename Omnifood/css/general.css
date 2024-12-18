@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
 html {
   font-size: 10px;
   /* font-size: 62.5%; */
@@ -17,7 +21,7 @@ strong {
   font-weight: 500;
 }
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 .container {
   max-width: 120rem;
@@ -44,6 +48,9 @@ strong {
 }
 .grid-4-columns {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid-5-columns {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid-center-vertically {
   align-items: center;
@@ -82,7 +89,7 @@ strong {
   text-transform: uppercase;
   margin-bottom: 1.6rem;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   font-weight: 600;
@@ -93,6 +100,9 @@ strong {
   display: inline-block;
   /* !Put transition on original state */
   transition: all 0.5s;
+
+  border: none;
+  cursor: pointer;
 }
 
 .btn-full:link,
